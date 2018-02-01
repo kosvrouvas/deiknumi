@@ -1,0 +1,30 @@
+.what-template {
+	font-family: 'Arial';
+ 	position: fixed;
+ 	bottom: 10px;
+ 	left: 10px;
+ 	background-color: rgba(0,0,0,0.5);
+ 	padding: 10px;
+ 	z-index: 99999999;
+ 	color: #fff;
+ }
+
+.what-template #stuffToShow {
+    display:none;
+    font-size: 12px;
+    padding: 10px 0px 0px 20px;
+}
+
+.what-template #checkbox {
+    display: none;
+}
+
+.what-template #checkbox:checked + #stuffToShow {
+    display:block;
+}
+
+.what-template #checkboxLabel {
+	font-size: 10px;
+	font-weight: lighter;
+	color: #fff;
+}
