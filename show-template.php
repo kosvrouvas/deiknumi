@@ -7,10 +7,10 @@
  * @package           Show_Template
  *
  * @wordpress-plugin
- * Plugin Name:       Show Template
+ * Plugin Name:       Metis
  * Plugin URI:        
  * Description:       
- * Version:           1.0.0
+ * Version:           1.1.0
  * Author:            
  * Contributors:      kosvrouvas
  * Author URI:        
