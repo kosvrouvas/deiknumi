@@ -1,12 +1,12 @@
 .what-template {
-	font-family: 'Arial';
- 	position: fixed;
- 	bottom: 10px;
- 	left: 10px;
- 	background-color: rgba(0,0,0,0.5);
- 	padding: 10px;
- 	z-index: 99999999;
- 	color: #fff;
+    font-family: 'Arial';
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.34);
+    padding: 3px;
+    z-index: 99999999;
+    color: #ffffffa3;
  }
 
 .what-template #stuffToShow {
@@ -24,7 +24,7 @@
 }
 
 .what-template #checkboxLabel {
-	font-size: 10px;
-	font-weight: lighter;
-	color: #fff;
+    font-size: 10px;
+    font-weight: lighter;
+    color: #ffffff8a;
 }
