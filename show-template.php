@@ -16,7 +16,7 @@
  * Author URI:        https://kosvrouvas.com/
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
- * Text Domain:       show-template
+ * Text Domain:       deíknūmi
  */
 
 // If this file is called directly, abort.
@@ -35,7 +35,7 @@ function show_template_css() {
 }
 add_action( 'wp_enqueue_scripts', 'show_template_css' );
 
-//Check user capabilities and show the template file
+//Check user capabilities and show the template file only if user is admin
 if( current_user_can( 'administrator' ) ) {
     function show_template() {
         global $template;
