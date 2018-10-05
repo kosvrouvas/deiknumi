@@ -7,13 +7,13 @@
  * @package           Show_Template
  *
  * @wordpress-plugin
- * Plugin Name:       Metis
+ * Plugin Name:       Deíknūmi
  * Plugin URI:        
- * Description:       
+ * Description:       Displays the current template file (and template parts if any). The name comes from the Proto-Indo-European *deyḱ- (“to show, point out”) +‎ -νῡμῐ (-nūmi), from Proto-Indo-European *-néwti.
  * Version:           1.1.0
- * Author:            
+ * Author:            Kostas Vrouvas
  * Contributors:      kosvrouvas
- * Author URI:        
+ * Author URI:        https://kosvrouvas.com/
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
  * Text Domain:       show-template
@@ -54,4 +54,3 @@ if( current_user_can( 'administrator' ) ) {
     }
     add_action('wp_head', 'show_template');
 }
-
