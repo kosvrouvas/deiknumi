@@ -4,13 +4,13 @@
  *
  * @link              
  * @since             1.0.0
- * @package           Show_Template
+ * @package           deiknumi
  *
  * @wordpress-plugin
  * Plugin Name:       Deíknūmi
  * Plugin URI:        
  * Description:       Displays the current template file (and template parts if any). The name comes from the Proto-Indo-European *deyḱ- (“to show, point out”) +‎ -νῡμῐ (-nūmi), from Proto-Indo-European *-néwti.
- * Version:           1.1.0
+ * Version:           1.2.0
  * Author:            Kostas Vrouvas
  * Contributors:      kosvrouvas
  * Author URI:        https://kosvrouvas.com/
@@ -28,16 +28,16 @@ if ( ! defined( 'ABSPATH' ) ) {
 require_once( ABSPATH . '/wp-includes/pluggable.php' ); $user_info = wp_get_current_user();
 
 //Load styles
-function show_template_css() {
+function deiknumi_css() {
     $plugin_url = plugin_dir_url( __FILE__ );
 
     wp_enqueue_style( 'stylesheet', $plugin_url . 'css/style.css' );
 }
-add_action( 'wp_enqueue_scripts', 'show_template_css' );
+add_action( 'wp_enqueue_scripts', 'deiknumi_css' );
 
 //Check user capabilities and show the template file only if user is admin
 if( current_user_can( 'administrator' ) ) {
-    function show_template() {
+    function deiknumi() {
         global $template;
         echo '<div class="what-template">';
         print_r($template);
@@ -52,5 +52,5 @@ if( current_user_can( 'administrator' ) ) {
         echo '</ol>';
         echo '</div></div>';
     }
-    add_action('wp_head', 'show_template');
+    add_action('wp_head', 'deiknumi');
 }

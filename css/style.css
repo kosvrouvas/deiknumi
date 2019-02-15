@@ -1,12 +1,13 @@
 .what-template {
     font-family: 'Arial';
     position: fixed;
+    font-size: 0.9rem;
     bottom: 0;
     left: 0;
-    background-color: rgba(0, 0, 0, 0.34);
-    padding: 3px;
+    background-color: rgba(0, 0, 0, 0.50);
+    padding: 1px;
     z-index: 99999999;
-    color: #ffffffa3;
+    color: #ffffff;
  }
 
 .what-template #stuffToShow {
