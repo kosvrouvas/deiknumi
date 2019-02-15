@@ -10,7 +10,7 @@
  * Plugin Name:       Deíknūmi
  * Plugin URI:        
  * Description:       Displays the current template file (and template parts if any). The name comes from the Proto-Indo-European *deyḱ- (“to show, point out”) +‎ -νῡμῐ (-nūmi), from Proto-Indo-European *-néwti.
- * Version:           1.2.0
+ * Version:           0.2
  * Author:            Kostas Vrouvas
  * Contributors:      kosvrouvas
  * Author URI:        https://kosvrouvas.com/
