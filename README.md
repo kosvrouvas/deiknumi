@@ -12,7 +12,7 @@ Tested up to: 5.4
 
 Requires PHP: 5.6
 
-Stable tag: 0.4
+Stable tag: 0.5
 
 License: GPLv2 or later
 
