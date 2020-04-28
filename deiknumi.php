@@ -10,7 +10,7 @@
  * Plugin Name:       Deíknūmi
  * Plugin URI:        
  * Description:       Displays the current template file (and template parts if any).
- * Version:           0.3
+ * Version:           0.4
  * Author:            Kostas Vrouvas
  * Contributors:      kosvrouvas
  * Author URI:        https://kosvrouvas.com/
