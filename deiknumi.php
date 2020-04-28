@@ -3,14 +3,14 @@
 /**
  *
  * @link              
- * @since             1.0.0
+ * @since             0.0.1
  * @package           deiknumi
  *
  * @wordpress-plugin
  * Plugin Name:       Deíknūmi
  * Plugin URI:        
- * Description:       Displays the current template file (and template parts if any). The name comes from the Proto-Indo-European *deyḱ- (“to show, point out”) +‎ -νῡμῐ (-nūmi), from Proto-Indo-European *-néwti.
- * Version:           0.2
+ * Description:       Displays the current template file (and template parts if any).
+ * Version:           0.3
  * Author:            Kostas Vrouvas
  * Contributors:      kosvrouvas
  * Author URI:        https://kosvrouvas.com/
